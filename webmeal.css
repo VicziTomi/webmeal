@@ -1,0 +1,19 @@
+header {
+  display: block;
+  width: 100%;
+  background-color: chartreuse;
+}
+
+
+.pizzas {
+  display: flex;
+  justify-content: center;
+}
+.hamburgers {
+  display: flex;
+  justify-content: center;
+}
+.other {
+  display: flex;
+  justify-content: center;
+}

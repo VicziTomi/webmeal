@@ -13,6 +13,25 @@
     <li><a href="contact.html" class="nav">Contact</a></li>
     <li><a href="menu.html" class="nav">Menu</a></li>
     <li><a href="order.html" class="nav">Order here</a></li>
-   
   </ul>
+  <form # method="post" target="_blank">
+    <text>Name:</text>
+    <input type="text" name="name"/><br>
+    <text>Email:</text>
+    <input type="email" name="email"/><br>
+    <text>Address</text>
+    <input type="text" name="address"/><br>
+    <text>Your order</text>
+    <select name="order">
+      <option value="Pizza Marghareta">Pizza Marghareta</option>
+      <option value="Pizza Hawaii">Pizza Hawaii</option>
+      <option value="Pizza SonGoKu">Pizza SonGoKu</option>
+      <option value="Pizza 4 seasons">Pizza 4 seasons</option>
+      <option value="Hamburger simple">Hamburger simple</option>
+      <option value="Hamburger double">Hamburger double</option>
+      <option value="Taco">Taco</option>
+      <option value="Pencake">Pencake</option>
+    </select></br>
+    <input type="submit" value="Send Order" onclick="alert(posted)" />
+  </form>
 </body>
